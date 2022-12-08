@@ -10,23 +10,80 @@
   <body>
     <!-- Default colors -->
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
-
     <!-- Text Colors -->
+
+    <p class="text-7xl text-black"> Black</p>
+    <p class="text-7xl text-white bg-black"> White</p>
+    <p class="text-7xl text-red-500"> Red 500</p>
+    <p class="text-7xl text-blue-600"> Blue 600</p>
+    <p class="text-7xl text-orange-300"> Orange 300</p>
+    <p class="text-7xl text-purple-400"> Purple 400</p>
+    <p class="text-7xl text-slate-400">Slate 400</p>
+    <p class="text-7xl text-rose-400">Rose 400</p>
+    <p class="text-7xl text-pink-300">Pink 300</p>
+    <p class="text-7xl text-fuchsia-600">Fuchsia 600</p>
+    <p class="text-7xl text-sky-400">Sky 400</p>
+    <p class="text-7xl text-gray-400"> Gray 400</p>
+    <p class="text-7xl text-zinc-600"> Zinc 600</p>
+    <p class="text-7xl text-yellow-400">Yellow 400</p>
+    <p class="text-7xl text-lime-300">Lime 300</p>
+    <p class="text-7xl text-emerald-300">Emerald 300</p>
+    <p class="text-7xl text-teal-300">Teal 300</p>
+    <p class="text-7xl text-cyan-300">Cyan 300</p>
+    <p class="text-7xl text-indigo-300">Indigo 300</p>
+    <p class="text-7xl text-violet-300">violet 300</p>
 
     <!-- Background Colors -->
 
+    <div class="flex space-x-4">
+      <div class="bg-emerald-300 w-24 h-24 "></div>
+      <div class="bg-teal-300 w-24 h-24"></div>
+      <div class="bg-cyan-300 w-24 h-24"></div>
+      <div class="bg-indigo-300 w-24 h-24"></div>
+      <div class="bg-violet-300 w-24 h-24"></div>
+      <div class="bg-sky-400 w-24 h-24"></div>
+      <div class="bg-gray-400 w-24 h-24"> </div>
+      <div class="bg-zinc-600 w-24 h-24"> </div>
+      <div class="bg-yellow-400 w-24 h-24"></div>
+      <div class="bg-lime-300 w-24 h-24"></div>
+    </div>
+
     <!-- Text Underline -->
+    <p class="text-7xl text-sky-400 underline decoration-red-300">Sky 400</p>
+    <p class="text-7xl text-gray-400 underline decoration-violet-300"> Gray 400</p>
+    <p class="text-7xl text-zinc-600 underline decoration-lime-300"> Zinc 600</p>
 
     <!-- Border Colors -->
-
+    <input type="text" class="m-4 h-12 w-1/6 border-2 border-slate-400 rounded-md">
+    <input type="text" class="m-4 h-12 w-1/6 border-2 border-purple-400 rounded-md">
+    <input type="text" class="m-4 h-12 w-1/6 border-2 border-sky-400 rounded-md">
     <!-- Divide Colors -->
-
+    <div class="divide-y divide-slate-400">
+      <div class="text-5xl">Item 1</div>
+      <div class="text-5xl">Item 2</div>
+      <div class="text-5xl">Item 3</div>
+      <div class="text-5xl">Item 4</div>
+      <div class="text-5xl">Item 5</div>
+    </div>
+    
+    <div class="divide-x divide-sky-500 space-x-4">
+      <span class="text-3xl">Item 1</span><span class="text-3xl">Item 2</span><span class="text-3xl">Item 3</span><span class="text-3xl">Item 4</span><span class="text-3xl">Item 5</span>
+    </div>
     <!-- Outline Colors -->
-
+    <div class="inline-block text-4xl outline m-2">
+      Outline
+    </div>
     <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
-
+    <button class="shadow-lg bg-yellow-200 shadow-pink-500/70 text-5xl">
+      Click
+    </button>
     <!-- Accent Colors -->
-
+    <div class="space-x-4">
+      <input type="checkbox" class="accent-purple-300 w-12 h-12"><input type="checkbox" class="accent-purple-300 w-12 h-12"><input type="checkbox" class="accent-purple-300 w-12 h-12">
+    </div>
     <!-- Arbitrary Colors -->
+    <div class="bg-[#96E8BC] text-6xl">
+      #96E8BC
+    </div>
   </body>
 </html>
