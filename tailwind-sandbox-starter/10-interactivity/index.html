@@ -9,26 +9,70 @@
   </head>
   <body>
     <!-- Hover State Styling -->
-
     <!-- Focus State Styling -->
-
     <!-- Active State Styling -->
+    <a href="#text">Go to text</a>
+    <div class="flex flex-row  space-x-2 mt-4 ">
+      <img class="w-96 brightness-100 hover:brightness-200" src="../assets/img/img4.jpg" alt="img1">
+    </div>
+    <div class="flex flex-row  space-x-6 mt-4 ">
+      <button class="ml-2 px-4 py-2 border-4 border-dashed border-slate-400 focus:border-slate-600">
+        Focus
+      </button>
+
+      <button class="px-4 py-2 border-4 border-dashed border-slate-400 active:border-slate-600">
+        Active
+      </button>
+    </div>
 
     <!-- Styling based on parent state -->
+    <a href="" class="group block max-w-xs mx-auto shadow-xl">
+      <div class="group-hover:text-cyan-600  text-4xl font-semibold">My Crad</div>
+      <div class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est quam quos eveniet quia tempora numquam pariatur consequuntur qui laudantium? Eius voluptatum architecto tempora nulla et minima facilis itaque consectetur.</div>
+    </a>
 
     <!-- Pseudo Classes -->
-
+    <div>
+      <div class="first:text-4xl">Item 1</div>
+      <div class="even:text-4xl">Item 2</div>
+      <div class="odd:text-4xl">Item 3</div>
+      <div class="first:text-4xl">Item 4</div>
+      <div class="first:text-4xl">Item 5</div>
+    </div>
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
-
+    <select class="block mx-auto appearance-none" name="Select" id="">
+      <option value="Item 1">Default</option>
+      <option value="Item 1">Item 1</option>
+      <option value="Item 1">Item 2</option>
+      <option value="Item 1">Item 3</option>
+    </select>
     <!-- Cursor -->
-
+    <button class="cursor-pointer ml-2 px-4 py-2 border-4 border-dashed border-slate-400 focus:border-slate-600">
+      Cursor Pointer
+    </button>
+    <button class="cursor-wait ml-2 px-4 py-2 border-4 border-dashed border-slate-400 focus:border-slate-600">
+      Cursor Wait
+    </button>
+    <button class="cursor-text ml-2 px-4 py-2 border-4 border-dashed border-slate-400 focus:border-slate-600">
+      Cursor Text
+    </button>
+    <button class="cursor-move ml-2 px-4 py-2 border-4 border-dashed border-slate-400 focus:border-slate-600">
+      Cursor Move
+    </button>
     <!-- Resize -->
 
     <!-- User Select -->
-
+    <div class="select-none text-6xl">Select None</div>
+    <div class="select-text text-6xl">Select Text</div>
+    <div class="select-all text-6xl">Select All</div>
     <!-- Smooth Scroll Example -->
   </body>
+  <div id="text">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nam pariatur. Nihil reprehenderit sequi harum illo odio nisi corporis tempora amet soluta. Molestias consequatur corrupti incidunt nesciunt ad at repudiandae!
+    Enim aliquid magnam quidem nam, ipsum facere aliquam, libero magni incidunt cumque numquam similique? Placeat sunt nisi officiis et fugiat saepe blanditiis quibusdam veritatis itaque, pariatur repudiandae, dolorum impedit neque?
+    Earum minima excepturi molestias nulla! Nesciunt voluptates incidunt voluptatibus sapiente consequatur, pariatur reprehenderit odio molestiae at impedit ut mollitia aspernatur eligendi doloribus fugiat odit quas, quaerat officiis laboriosam dolor iure.
+  </div>
 </html>
 
 <!-- Cursor
