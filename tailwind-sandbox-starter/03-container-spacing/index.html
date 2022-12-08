@@ -10,23 +10,44 @@
   <body>
     <!-- Container -->
     <div>
-      <article>
-        <h3>Article One</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem laboriosam libero molestiae recusandae accusantium
-          voluptates? Expedita dignissimos amet eveniet dolore nobis odio a
-          sunt, maiores quasi. Modi amet quos dolores!
+      <article class="container p-4 bg-purple-200 mx-auto">
+        <p class="text-center font-mono">
+          Container 會根據視窗的寬度來相對應的調整元素的 max-width。
         </p>
       </article>
 
       <!-- Margin -->
 
+      <div class="flex mt-4">
+        <div class="mr-4 h-12 w-12 bg-sky-300"></div>
+        <div class="mr-4 h-12 w-12 bg-sky-300"></div>
+        <div class="mr-4 h-12 w-12 bg-sky-300"></div>
+        <div class="mr-4 h-12 w-12 bg-sky-300"></div>
+        <div class="mr-4 h-12 w-12 bg-sky-300"></div>
+      </div>
+
       <!-- Padding -->
 
-      <!-- Space Between X -->
+      <div class="border-4 border-black h-24 w-24 mt-4 p-2">
+        <div class="bg-lime-300 h-full w-full text-center ">Content</div>
+      </div>
 
+      <!-- Space Between X -->
+      <div class="flex space-x-4 mt-2">
+        <div class="text-4xl">Item 1</div>
+        <div class="text-4xl">Item 2</div>
+        <div class="text-4xl">Item 3</div>
+        <div class="text-4xl">Item 4</div>
+        <div class="text-4xl">Item 5</div>
+      </div>
       <!-- Space Between Y -->
+      <div class="space-y-4 mt-2">
+        <div class="text-3xl">Item 1</div>
+        <div class="text-3xl">Item 2</div>
+        <div class="text-3xl">Item 3</div>
+        <div class="text-3xl">Item 4</div>
+        <div class="text-3xl">Item 5</div>
+      </div>
     </div>
   </body>
 </html>
