@@ -9,11 +9,48 @@
   </head>
   <body>
     <!-- No Transition -->
+    <div class="flex flex-col items-center">
     <button
-      class="px-8 py-2 m-24 text-white bg-blue-500 rounded hover:bg-blue-700"
+      class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 transition-colors"
     >
-      Click me
+      Transition Color
     </button>
+    <button
+      class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 transition-colors duration-1000"
+    >
+      duration-1000
+    </button>
+    <button
+    class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 hover:opacity-20 transition-opacity duration-300"
+    >
+      opacity-20
+    </button>
+    <button
+    class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 hover:-translate-x-10 transition-transform duration-300"
+    >
+    -translate-x-10
+    </button>
+    <button
+    class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 hover:translate-y-10 transition-transform duration-300"
+    >
+    translate-y-10
+    </button>
+    <button
+      class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 hover:rotate-12 transition-transform duration-300"
+      >
+      rotate-12
+    </button>
+    <button
+      class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 hover:scale-110 transition-transform duration-300"
+      >
+      scale-110
+    </button>
+    <button
+    class="px-8 py-2 m-2 text-white bg-blue-500 rounded hover:bg-blue-700 hover:skew-x-12 transition-transform duration-300"
+    >
+    skew-x-3
+  </button>
+    </div>
 
     <!-- Transition -->
 
