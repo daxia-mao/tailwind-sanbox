@@ -8,7 +8,40 @@
     <title>Breakpoints & Media Queries</title>
   </head>
   <!-- Tailwind is mobile-first -->
-  <body></body>
+  <body class="bg-red-200 sm:bg-blue-200 md:bg-green-200 lg:bg-yellow-200 xl:bg-orange-200 2xl:bg-lime-200">
+    <h1 class="text-4xl text-bord"></h1>
+    <h2 class="text-3xl"></h2>
+    <script>
+
+      const seth2InnerValue = (text) => {
+        document.querySelector('h2').innerText = text;
+      }     
+      const showBrowserWidth = () => {
+        const width = window.innerWidth;
+        document.querySelector('h1').innerText = width + ' px';
+        if(width >=1536){
+          seth2InnerValue('2xl');
+        }
+        else if(width>=1280){
+          seth2InnerValue('xl');
+        }
+        else if(width>=1024){
+          seth2InnerValue('lg');
+        }
+        else if(width>=768){
+          seth2InnerValue('md');
+        }
+        else if(width>=640){
+          seth2InnerValue('sm');
+        }
+        else{
+          seth2InnerValue('< 640px');
+        }
+      }
+      window.onload = showBrowserWidth;
+      window.onresize = showBrowserWidth;
+    </script>
+  </body>
 </html>
 
 <!-- Breakpoint Classes
